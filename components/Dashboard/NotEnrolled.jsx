@@ -31,8 +31,8 @@ const NotEnrolled = () => {
                     </Card.Content>
                     <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
                     <Card.Actions>
-                        <Button>Cancel</Button>
-                        <Button>Send Request</Button>
+                        <Button onPress={hideModal}>Cancel</Button>
+                        <Button onPress={() => window.alert('Request will be sent')}>Send Request</Button>
                     </Card.Actions>
                 </Card>
             </Modal>
