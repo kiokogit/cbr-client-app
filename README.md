@@ -1,13 +1,12 @@
-# Expo Router Example
+# CBR CLIENT APP
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+This file shall store the record of development and features added.
 
-## 🚀 How to use
+So far:
+- Added Auth pages: login, register, recover password, and update user profile 
+- Added dashboards for not enrolled, and awaiting commencement of the date
 
-```sh
-npx create-expo-app -e with-router
-```
 
-## 📝 Notes
+Next: to work on ongoing course detail view: the longest feature of the app.
+- review also the page.
 
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
