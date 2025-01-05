@@ -20,7 +20,7 @@ const Dashboard = () => {
 
     return (
         <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', width: '100%', height: "100%", padding: 10}}>
-            {!cbrStatus.enrolled && <NotEnrolled />}
+            {!cbrStatus.enrolled && <NotEnrolled requested_class={cbrStatus.classEnrolled} />}
             {cbrStatus.enrolled && cbrStatus.classEnrolled.class_status === "pending" && <PendingStart cbr={cbrStatus.classEnrolled} />}
             {cbrStatus.enrolled && cbrStatus.classEnrolled.class_status === "ongoing" && <Ongoing cbr={cbrStatus.classEnrolled} />}
         </View>

@@ -28,7 +28,7 @@ const WelcomeLanding = () => {
                 <Text style={styles.italicisedName}> Consistent Bible Reading</Text>
                 <Text style={styles.welcomeSlogan}>The hard way to build discipline in Fellowship with God</Text>
 
-                <Button style={styles.getStartedBtn} onPress={() => router.push('/dash')}>
+                <Button style={styles.getStartedBtn} onPress={() => router.push('/login')}>
                     <Text style={{color: 'white'}}>Get Started</Text>
                 </Button>
                 

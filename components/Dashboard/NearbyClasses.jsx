@@ -33,7 +33,7 @@ const Nearbyclasses = ({handleCardPress}) => {
             <NearbyClassCard
             cls={cls}
               key={`nearby-job-${cls?.id}`}
-              handleNavigate={handleCardPress}
+              handleNavigate={() => handleCardPress(cls)}
             />
           ))
         )}

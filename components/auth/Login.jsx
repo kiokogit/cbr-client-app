@@ -45,7 +45,7 @@ const Login = () => {
                         loading={loadingState} 
                         style={{ justifyContent: 'center', borderRadius: 8, maxWidth: '100%'}}
                         labelStyle={{fontWeight: '800'}}
-                        onPress={() => console.log('Pressed')}>
+                        onPress={() => router.replace('/dash')}>
                         Submit
                     </Button>
                 </View>

@@ -53,7 +53,8 @@ const CLASSES = [
         institution: "JKUATCU",
         location:"Juja",
         moderator: "M Mike",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: ["course_name", "year_of_study", "hostel/residence"]
     },
     {
         id: 2,
@@ -62,7 +63,8 @@ const CLASSES = [
         institution: "CBC Ruiru",
         location:"Ruiru",
         moderator: "John Doe",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: ["residence"]
     },
     {
         id: 3,
@@ -71,7 +73,8 @@ const CLASSES = [
         institution: "Garissa Primary",
         location:"Hola",
         moderator: "John Doe",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: ["ethnic_affiliation"]
     },
     {
         id: 4,
@@ -80,7 +83,8 @@ const CLASSES = [
         institution: "NHFANc",
         location:"Tana River",
         moderator: "John Doe",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: []
     },
     {
         id: 5,
@@ -89,7 +93,8 @@ const CLASSES = [
         institution: "JKUATCU",
         location:"Juja",
         moderator: "John Doe",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: []
     },
     {
         id: 6,
@@ -98,7 +103,8 @@ const CLASSES = [
         institution: "CBC Ruiru",
         location:"Ruiru",
         moderator: "John Doe",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: []
     },
     {
         id: 7,
@@ -107,7 +113,8 @@ const CLASSES = [
         institution: "JKUATCU",
         location:"Juja",
         moderator: "John Doe",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: []
     },
     {
         id: 8,
@@ -116,7 +123,8 @@ const CLASSES = [
         institution: "CBC Ruiru",
         location:"Ruiru",
         moderator: "John Doe",
-        coordinator: "Gichuki"
+        coordinator: "Gichuki",
+        info_required: []
     }
 ]
 

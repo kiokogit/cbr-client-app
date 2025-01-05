@@ -46,7 +46,7 @@ const PopularClasses = ({handleCardPress}) => {
                 handleCardPress={handleCardPress}
               />
             )}
-            keyExtractor={(item) => item?.job_id}
+            keyExtractor={(item) => item?.id}
             contentContainerStyle={{ columnGap: 5 }}
             horizontal
           />
