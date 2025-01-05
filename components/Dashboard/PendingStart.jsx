@@ -35,8 +35,8 @@ const PendingStart = ({cbr}) => {
 
             <View style={{marginTop: 10, marginBottom: 30}}>
                 <Text style={{textAlign: 'center', color: COLORS.dim_green, margin: 20}}>Class Starts in </Text>
-                <Text style={{textAlign: 'center', fontFamily: 'Arial', fontWeight: 900, fontSize: 64, color: COLORS.dim_green}}>{convertToRelativeTime(cbr.start_date)[0]}</Text>
-                <Text style={{textAlign: 'center', color: COLORS.dim_green, fontFamily: 'Arial', fontWeight: 900, fontSize: 20,}}>{convertToRelativeTime(cbr.start_date)[1]}</Text>
+                <Text style={{textAlign: 'center', fontFamily: 'Arial', fontWeight: 900, fontSize: 64, color: COLORS.dim_green}}>{convertToRelativeTime(cbr.start_date).at(-2)}</Text>
+                <Text style={{textAlign: 'center', color: COLORS.dim_green, fontFamily: 'Arial', fontWeight: 900, fontSize: 20,}}>{convertToRelativeTime(cbr.start_date).at(-1)}</Text>
             </View>
 
             <View style={{marginTop: 10, marginBottom: 30}}>
