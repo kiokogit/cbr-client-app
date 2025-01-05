@@ -9,7 +9,7 @@ import PendingStart from "./PendingStart";
 const Dashboard = () => {
 
     const [cbrStatus, setCbrStatus] = useState({
-        enrolled: true,
+        enrolled: false,
         classEnrolled: {
             class_title: "JKUATCU CBR 2025",
             class_status: "pending",
